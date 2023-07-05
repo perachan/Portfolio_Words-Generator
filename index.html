@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Scifister</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <!-- Header -->
+    <header>
+        <a href="#">Scifister</a>
+    </header>
+
+    <!-- Body -->
+    <div class="main">
+        <div class="title">
+            <h1>Sci-fi Movie guessing game</h1>
+            <p>Proof that you're an expert</p>
+        </div>
+    
+        <div class="display-container">
+            <!-- randomtext -->
+
+            <button>New challenge</button>
+        </div>
+    </div>
+
+    <div class="background-image">
+        <img src="./Resources/Background-images.png" alt="test">
+    </div>
+
+    <!-- Filter effect -->
+    <svg>
+        <filter id="grainy">
+            <feTurbulence type="franctalNoise" baseFrequency="2.6"></feTurbulence>
+        </filter>
+    </svg>
     
 </body>
 </html>
